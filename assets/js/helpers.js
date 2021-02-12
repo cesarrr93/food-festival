@@ -15,8 +15,8 @@ function createLoremIpsum(numWords = 50) {
     const result = loremIpsum.split(/\s+/).slice(0,numWords).join(" ");
     return result;
   };
-  
- module.exports = {
-      dateConverter,
-      createLoremIpsum
+
+ mmodule.exports = {
+    dateConverter,
+    createLoremIpsum
   }
